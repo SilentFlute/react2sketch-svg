@@ -28,7 +28,7 @@ module.exports = (config) => {
       ...config.resolve,
       alias: {
         ...config.resolve.alias,
-        'react-sketchapp': path.resolve(__dirname, '../../'),
+        'react-sketchapp': path.resolve(__dirname, './Svg.js'),
       },
     };
   }
