@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { render, Artboard } from 'react-sketchapp';
-const ImgSvg = require('./imgs/sketch.svg');
+import ImgSvg from './imgs/sketch.svg';
 
 const Document = () => {
 
